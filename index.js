@@ -1,5 +1,5 @@
 const TelegramBot = require('node-telegram-bot-api');
-const token = '515310776:AAGZnKGJHfxWoaa6TFRMLGeqEHsW0rSc6kg';
+const token = '';
 const bot = new TelegramBot(token, {polling: true});
 const diractory = 'D:/Qt/Third course/2 sem';
 const START_COMMAND = '/start';
